@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+
+        .vert {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            text-align: center;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+
+        .spac {
+            padding-left: 5%;
+        }
+
+        h4 {
+            margin: 5px;
+        }
+
+        .second-table {
+            margin-top: 30px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h4 style="text-align: center;">Amrita School of Computing, Bengaluru</h4>
+    <h4 style="text-align: center;">Time Table for third year 2025-26(Odd Semester)</h4>
+    <h4 class="spac">Faculty advisors: Dr.Manju Venugopalan</h4> 
+    <div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;">
+    <h4 style="margin: 0; text-align: left;">Class Room: C 401 (smart classroom)</h4>
+    <h4 style="margin: 0; text-align: center;">Section-E: AIE</h4>
+    <h4 style="margin: 0; text-align: right;">W.E.F.: 02/07/25</h4>
+    </div>
+
+    
+    <table style="width:100%">
+        <tr style="background-color: darkseagreen;">
+            <td> Theory<br> Slots</td><td>8:10-9:00</td>
+            <td colspan="2">9:00-9:50</td>
+            <td>9:50-10:40</td>
+            <td rowspan="7" class="vert">TEA BREAK</td>
+            <td>11:00-11:50</td>
+            <td>11:50-12:40</td>
+            <td rowspan="7" class="vert">LUNCH BREAK</td>
+            <td>2:00-2:50</td>
+            <td>2:50-3:40</td>
+            <td rowspan="2">3:40-4:20<br>AS</td>
+            <td rowspan="2">04:30</td>
+        </tr>
+        <tr style="background-color: rgb(245, 245, 118);">
+            <td>Lab Slots</td>
+            <td colspan="4">8:10-10:25</td>
+            <td colspan="2">10:50-1:05</td>
+            <td colspan="2">1:25-3:40</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td rowspan="5" class="vert" style="background-color: darkseagreen;">PRAYER</td>
+            <td colspan="3">E Lab</td>
+            <td colspan="2">A Lab</td>
+            <td>Counselling</td>
+            <td>Evaluation</td>
+            <td></td>
+            <td rowspan="5" class="vert" style="background-color: darkseagreen;">DEPARTURE OF<br>BUS</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>CIR</td><td>CIR</td><td>CIR</td>
+            <td>C</td><td>PE I</td>
+            <td colspan="2">D LAB</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>B</td><td>E</td><td>D</td>
+            <td>Evaluation(C402)</td><td>A(C402)</td>
+            <td colspan="2">C LAB</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>PE I</td><td>B</td><td>C</td>
+            <td>CIR</td><td>E</td>
+            <td colspan="2">Evaluation</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>B</td><td>D</td><td>Evaluation</td>
+            <td>A</td><td>C</td>
+            <td colspan="2">PE I LAB</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <table class="second-table">
+        <tr>
+            <th>Slot</th>
+            <th>Subject Code</th>
+            <th>L T P CR
+            <th>Subject Title</th>
+            <th>Faculty</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>A</td><td>22AIE301</td>
+            <td>2 0 3 3</td>
+            <td>Probabilistic Reasoning</td>
+            <td>Dr. Nagesh Subbanna (Co-Mr. Lijun)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>22AIE302</td>
+            <td>2 0 3 3</td>
+            <td>Formal Language and Automata</td>
+            <td>Ms. Thushara</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>22AIE303</td>
+            <td>2 0 3 3</td>
+            <td>Database Management System</td>
+            <td>Ms. Gayathri Ramasamy (Co-Ms. Anjitha)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>22AIE304</td>
+            <td>2 0 3 3</td>
+            <td>Deep Learning</td>
+            <td>Dr. Rimjim  Padma Singh (Co-Ms. B Saranya Devi)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>22AIE305</td>
+            <td>2 0 3 3</td>
+            <td>Introduction to Cloud Computing</td>
+            <td>Dr. Beena M B (Dr. Katika Dinesh Kumar)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>PE I</td>
+            <td>22AIE357</td>
+            <td>2 0 3 3</td>
+            <td>Cybercrime Forensics and Digital Forensics (C206)</td>
+            <td>Mr. Sreerag G (Co-Ms. Swetha)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>PE I</td> 
+            <td>22AIE457</td>
+            <td>2 0 3 3</td>
+            <td>Full Stack Development (C401)</td>
+            <td>Dr. Gurupriya M (Co: Ms. Gayathri Ramasamy)</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>CIR</td>
+            <td>23LSE301</td>
+            <td>1 0 2 2</td>
+            <td>Life Skills for Engineers III</td>
+            <td>Karisma Nair, Sivakumar</td>
+            <td>CIR</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>19LIV390</td>
+            <td>2</td>
+            <td>Live-in-Labs I</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
